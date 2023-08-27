@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import meImage from "./me.jpg";
 
 function Portfolio() {
   return (
@@ -6,29 +7,56 @@ function Portfolio() {
       {/* Navbar */}
       <nav className="bg-white p-6 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
-          <a href="#" className="text-2xl font-bold">Machiel</a>
+          <a href="#" className="text-2xl font-bold">
+            Machiel
+          </a>
           <div>
-            <a href="#" className="mx-4">Projects</a>
-            <a href="#" className="mx-4">Blog</a>
-            <a href="#" className="mx-4">Contact</a>
+            <a href="#" className="mx-4">
+              Projects
+            </a>
+            <a href="#" className="mx-4">
+              Blog
+            </a>
+            <a href="#" className="mx-4">
+              Contact
+            </a>
           </div>
         </div>
       </nav>
 
       {/* Hero Section */}
-      <header className="bg-blue-500 text-white text-center py-20">
+      <header className="bg-emerald-500 text-white text-center py-20">
         <h1 className="text-5xl mb-4">Hello, I'm Machiel</h1>
-        <p className="text-xl">A passionate software developer from Earth.</p>
+        <p className="text-xl">A software developer from Earth.</p>
       </header>
 
       {/* About Me */}
       <section className="container mx-auto p-6">
         <h2 className="text-3xl font-bold mb-6">About Me</h2>
-        <div className="flex space-x-10">
-          <img src="your-image.jpg" alt="Your Name" className="w-1/3 rounded-full shadow-lg" />
+        <div className="flex items-center space-x-10">
+          <img
+            src={meImage}
+            alt="Me"
+            className="w-1/3 rounded-full shadow-lg"
+          />
           <div className="w-2/3">
             <p>
-              Brief about yourself, your experience, skills, and any other relevant information.
+              I'm a full-stack web developer with two years of experience,
+              specializing in creating applications for the insurance industry.
+              My journey in the tech world is driven by my passion to leverage
+              software as a tool to make the world a better place.
+            </p>
+            <p>
+              When I'm not coding, you can find me immersed in a good book or
+              diving into the virtual realms of video games. Music holds a
+              special place in my heart, resonating with my creative spirit and
+              fueling my day-to-day endeavors. On the sports front, I'm an avid
+              follower of cricket, football, and the high-octane world of
+              Formula 1 racing.
+            </p>
+            <p>
+              Join me on my journey as I continue to merge my passions and
+              expertise, crafting solutions one line of code at a time.
             </p>
           </div>
         </div>
@@ -41,7 +69,11 @@ function Portfolio() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {/* Single Project */}
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <img src="project-image.jpg" alt="Project Name" className="mb-4" />
+              <img
+                src="project-image.jpg"
+                alt="Project Name"
+                className="mb-4"
+              />
               <h3 className="text-xl font-bold mb-4">Project Name</h3>
               <p>Short description of the project.</p>
             </div>
