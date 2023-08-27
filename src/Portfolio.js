@@ -6,7 +6,7 @@ function Portfolio() {
       {/* Navbar */}
       <nav className="bg-white p-6 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
-          <a href="#" className="text-2xl font-bold">YourName</a>
+          <a href="#" className="text-2xl font-bold">Machiel</a>
           <div>
             <a href="#" className="mx-4">Projects</a>
             <a href="#" className="mx-4">Blog</a>
@@ -17,8 +17,8 @@ function Portfolio() {
 
       {/* Hero Section */}
       <header className="bg-blue-500 text-white text-center py-20">
-        <h1 className="text-5xl mb-4">Hello, I'm YourName</h1>
-        <p className="text-xl">A passionate web developer from Earth.</p>
+        <h1 className="text-5xl mb-4">Hello, I'm Machiel</h1>
+        <p className="text-xl">A passionate software developer from Earth.</p>
       </header>
 
       {/* About Me */}
@@ -53,7 +53,7 @@ function Portfolio() {
       {/* Footer */}
       <footer className="bg-white p-6 mt-10">
         <div className="container mx-auto text-center">
-          <p>&copy; {new Date().getFullYear()} YourName. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Machiel. All rights reserved.</p>
         </div>
       </footer>
     </div>
