@@ -25,7 +25,7 @@ function Portfolio() {
       </nav>
 
       {/* Hero Section */}
-      <header className="bg-emerald-500 text-white text-center py-20">
+      <header className="bg-sky-700 text-white text-center py-20">
         <h1 className="text-5xl mb-4">Hello, I'm Machiel</h1>
         <p className="text-xl">A software developer from Earth.</p>
       </header>
@@ -37,11 +37,11 @@ function Portfolio() {
           <img
             src={meImage}
             alt="Me"
-            className="w-1/3 rounded-full shadow-lg"
+            className="w-1/4 rounded-full shadow-lg"
           />
-          <div className="w-2/3">
+          <div className="w-2/3 text-lg">
             <p>
-              I'm a full-stack web developer with two years of experience,
+              I'm a full-stack web developer,
               specializing in creating applications for the insurance industry.
               My journey in the tech world is driven by my passion to leverage
               software as a tool to make the world a better place.
