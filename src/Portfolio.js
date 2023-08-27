@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import meImage from "./me.jpg";
 import whatnowImage from "./whatnow.png";
+import somniumImage from "./somnium.png";
+import rpsImage from "./rock-paper-scissors.png"
 
 function Portfolio() {
   return (
@@ -82,7 +84,28 @@ function Portfolio() {
                 React JS and Bootstrap.
               </p>
             </div>
-            {/* Add more projects as needed */}
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <a href="https://machiel27.github.io/landing-page/">
+                <img src={somniumImage} alt="somnium" className="mb-4" />
+              </a>
+              <h3 className="text-xl font-bold mb-4">
+                Flexbox Landing Page
+              </h3>
+              <p>
+                A simple, static Landing Page for a fictional company. Used to practice Flexbox design.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <a href="https://machiel27.github.io/rock-paper-scissors/">
+                <img src={rpsImage} alt="rock-paper-scissors" className="mb-4" />
+              </a>
+              <h3 className="text-xl font-bold mb-4">
+                Rock, Paper, Scissors
+              </h3>
+              <p>
+                A Vanilla JavaScript game I created for the Odin Project.
+              </p>
+            </div>
           </div>
         </div>
       </section>
