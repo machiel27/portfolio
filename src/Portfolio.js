@@ -62,22 +62,22 @@ function Portfolio() {
           />
           <div className="w-2/3 text-lg">
             <p>
-              I'm a full-stack web developer, specializing in creating
+              I'm a full-stack web developer with a focus on building
               applications for the insurance industry. My journey in the tech
-              world is driven by my passion to leverage software as a tool to
-              make the world a better place.
+              world is all about using software to make our world a better place
+              – that's what keeps me going.
             </p>
             <p>
-              When I'm not coding, you can find me immersed in a good book or
-              diving into the virtual realms of video games. Music holds a
-              special place in my heart, resonating with my creative spirit and
-              fueling my day-to-day endeavors. On the sports front, I'm an avid
-              follower of cricket, football, and the high-octane world of
-              Formula 1 racing.
+              When I'm not coding, you'll catch me lost in a good book or
+              exploring virtual worlds through video games. Music is like a fuel
+              for my creative side, and it keeps me going in my day-to-day
+              tasks. And when it comes to sports, I'm a big fan of cricket,
+              football, and the adrenaline-pumping world of Formula 1 racing.
             </p>
             <p>
-              Join me on my journey as I continue to merge my passions and
-              expertise, crafting solutions one line of code at a time.
+              I'd love for you to come along on my journey as I blend my
+              passions and skills, working on solutions one line of code at a
+              time.
             </p>
           </div>
         </div>
