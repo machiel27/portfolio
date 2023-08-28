@@ -16,7 +16,7 @@ function Portfolio() {
             Machiel
           </Link>
           <div className="flex items-center">
-            <Link to="/under-construction" className="mx-4">
+            {/* <Link to="/under-construction" className="mx-4">
               Projects
             </Link>
             <Link to="/under-construction" className="mx-4">
@@ -24,7 +24,7 @@ function Portfolio() {
             </Link>
             <Link to="/under-construction" className="mx-4">
               Contact
-            </Link>
+            </Link> */}
             <a
               href="https://github.com/machiel27"
               target="_blank"
