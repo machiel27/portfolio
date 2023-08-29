@@ -29,7 +29,7 @@ function Portfolio() {
               href="https://github.com/machiel27"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-4"
+              className="mx-4 transform transition-transform duration-300 hover:scale-110"
             >
               <FaGithub size={24} />
             </a>
@@ -37,7 +37,7 @@ function Portfolio() {
               href="https://linkedin.com/in/machiel-van-der-walt-550343242"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-4"
+              className="mx-4 transform transition-transform duration-300 hover:scale-110"
             >
               <FaLinkedin size={24} />
             </a>
