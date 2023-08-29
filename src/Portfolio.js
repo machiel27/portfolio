@@ -46,7 +46,7 @@ function Portfolio() {
       </nav>
 
       {/* Hero Section */}
-      <header className="bg-sky-700 text-white text-center py-20">
+      <header className="bg-sky-700 text-white text-center py-20 animate-breathing">
         <h1 className="text-5xl mb-4">Hello, I'm Machiel</h1>
         <p className="text-xl">A software developer from Earth.</p>
       </header>
