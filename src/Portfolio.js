@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import meImage from "./me.jpg";
 import whatnowImage from "./whatnow.png";
 import somniumImage from "./somnium.png";
@@ -12,9 +12,9 @@ function Portfolio() {
       {/* Navbar */}
       <nav className="bg-white p-6 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold hover:animate-bounce">
+          <div className="text-2xl font-bold hover:animate-bounce">
             Machiel
-          </Link>
+          </div>
           <div className="flex items-center">
             {/* <Link to="/under-construction" className="mx-4">
               Projects
