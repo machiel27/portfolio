@@ -12,7 +12,7 @@ function Portfolio() {
       {/* Navbar */}
       <nav className="bg-white p-6 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold">
+          <Link to="/" className="text-2xl font-bold hover:animate-bounce">
             Machiel
           </Link>
           <div className="flex items-center">
@@ -29,7 +29,7 @@ function Portfolio() {
               href="https://github.com/machiel27"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-4 transform transition-transform duration-300 hover:scale-110"
+              className="mx-4 transform transition-transform duration-300 hover:scale-125"
             >
               <FaGithub size={24} />
             </a>
@@ -37,7 +37,7 @@ function Portfolio() {
               href="https://linkedin.com/in/machiel-van-der-walt-550343242"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-4 transform transition-transform duration-300 hover:scale-110"
+              className="mx-4 transform transition-transform duration-300 hover:scale-125"
             >
               <FaLinkedin size={24} />
             </a>
@@ -58,7 +58,7 @@ function Portfolio() {
           <img
             src={meImage}
             alt="Me"
-            className="w-1/4 rounded-full shadow-lg"
+            className="w-1/4 rounded-full shadow-lg hover:grayscale"
           />
           <div className="w-2/3 text-lg">
             <p>

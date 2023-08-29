@@ -6,8 +6,25 @@ module.exports = {
   ],
   theme: {
     extend: {
-      tranform: ['hover'],
+      transform: ['hover'],
       keyframes: {
+        bounce: {
+          '0%': {
+            transform: 'translateY(0)',
+          },
+          '30%': {
+            transform: 'translateY(-15px)',
+          },
+          '50%': {
+            transform: 'translateY(0)',
+          },
+          '70%': {
+            transform: 'translateY(-7px)',
+          },
+          '100%': {
+            transform: 'translateY(0)',
+          },
+        },
         breathing: {
           '0%': {
             backgroundColor: '#3B82F6', // Original sky-700 color
@@ -27,6 +44,7 @@ module.exports = {
         },
       },
       animation: {
+        bounce: 'bounce 1.5s infinite',
         breathing: 'breathing 10s infinite',
       },
     },
