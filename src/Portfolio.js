@@ -95,7 +95,11 @@ function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={whatnowImage} alt="whatnow" className="mb-4" />
+                <img
+                  src={whatnowImage}
+                  alt="whatnow"
+                  className="mb-4 rounded-lg transition-transform duration-500 ease-in-out transform hover:rotate-12"
+                />
               </a>
               <h3 className="text-xl font-bold mb-4">
                 Product Ordering System
@@ -111,7 +115,11 @@ function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={somniumImage} alt="somnium" className="mb-4" />
+                <img
+                  src={somniumImage}
+                  alt="somnium"
+                  className="mb-4 rounded-lg transition-transform duration-500 ease-in-out transform hover:rotate-12"
+                />
               </a>
               <h3 className="text-xl font-bold mb-4">Flexbox Landing Page</h3>
               <p>
@@ -128,7 +136,7 @@ function Portfolio() {
                 <img
                   src={rpsImage}
                   alt="rock-paper-scissors"
-                  className="mb-4"
+                  className="mb-4 rounded-lg transition-transform duration-500 ease-in-out transform hover:rotate-12"
                 />
               </a>
               <h3 className="text-xl font-bold mb-4">Rock, Paper, Scissors</h3>
